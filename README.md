@@ -2,7 +2,7 @@
 
 This is my personal notes about Python Django Tips that I found on the Internet and books that I read. Reference will be mentioned at the bottom.
 
-1. make your code as readable as possible:
+1. Make your code as readable as possible:
 - Avoid abbreviating variable names. 
 - Write out your function argument names. 
 - Document your classes and methods. 
@@ -34,7 +34,7 @@ Created by Tarek Ziadé and now maintained by the PyCQA group, Flake8 is a very
  3. Imports from third-party apps including those unrelated to Django.
  4. Imports from the apps that you created as part of your Django project.
 ```
-&nbsp;&nbsp;Good Python Imports
+&nbsp;&nbsp;&nbsp;&nbsp;Good Python Imports
 ```
 # Stdlib imports
 from math import sqrt
@@ -51,7 +51,7 @@ from django_extensions.db.models import TimeStampedModel
 from splits.models import BananaSplit
 ```
 
-&nbsp;&nbsp;Relative Python Imports
+&nbsp;&nbsp;&nbsp;&nbsp;Relative Python Imports
 
 ```
 # cones/views.py
