@@ -3,17 +3,17 @@
 This is my personal notes about Python Django Tips that I found on the Internet and books that I read. Reference will be mentioned at the bottom.
 
 1. make your code as readable as possible: 
-   * Avoid abbreviating variable names. 
-   * Write out your function argument names. 
-   * Document your classes and methods. 
-   * Comment your code. 
-   * Refactor repeated lines of code into reusable functions or methods. 
-   * Keep functions and methods short. A good rule of thumb is that scrolling should not be necessary to read an entire function or method.
+ * Avoid abbreviating variable names. 
+ * Write out your function argument names. 
+ * Document your classes and methods. 
+ * Comment your code. 
+ * Refactor repeated lines of code into reusable functions or methods. 
+ * Keep functions and methods short. A good rule of thumb is that scrolling should not be necessary to read an entire function or method.
 
 2. PEP 8 describes coding conventions such as: 
-   * Use 4 spaces per indentation level.
-   * Separate top-level function and class definitions with two blank lines.
-   * Method definitions inside a class are separated by a single blank line.
+ * Use 4 spaces per indentation level.
+ * Separate top-level function and class definitions with two blank lines.
+ * Method definitions inside a class are separated by a single blank line.
 
 3. "Use Black to format Python Code". Black is an uncompromising Python code formatter created by Łukasz Langa. By using it, we give up our control over the minutiae of hand-wrangling code into legibility, and in return it gives us speed and determinism in how our code will look. https://github.com/psf/black
 
