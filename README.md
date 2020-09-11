@@ -66,12 +66,16 @@ class WaffleConeCreateView(FoodMixin, CreateView):
       model = WaffleCone
       form_class = WaffleConeForm
 ```
- 
-7. "isort for Sorting Imports".  
-The isort Python library sorts your imports so we don’t have to. It imports alphabet- ically and automatically separates our imports into sections and by type.
-https://github.com/PyCQA/isort
+7. Using Aliases to Avoid Python Module Collisions
 
-8. 
+```
+from django.db.models import CharField as ModelCharField
+from django.forms import CharField as FormCharField
+
+```
+
+8. "Isort for Sorting Imports". The isort Python library sorts your imports so we don’t have to. It imports alphabet- ically and automatically separates our imports into sections and by type. https://github.com/PyCQA/isort
+
 
 # Reference
 ["Two Scoops of Django 3.x: Best Practices for the Django Web Framework"](https://www.feldroy.com/products/two-scoops-of-django-3-x)
