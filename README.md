@@ -76,6 +76,13 @@ from django.forms import CharField as FormCharField
 
 8. "Isort for Sorting Imports". The isort Python library sorts your imports so we don’t have to. It imports alphabet- ically and automatically separates our imports into sections and by type. https://github.com/PyCQA/isort
 
+9. Perform checking and testing
+```
+$ flake8 . --max-line-length=127
+$ python manage.py check --deploy --settings=config.settings.production
+$ python manage.py test apps/<name_app> --settings=config.settings.local
+
+```
 
 # Reference
 ["Two Scoops of Django 3.x: Best Practices for the Django Web Framework"](https://www.feldroy.com/products/two-scoops-of-django-3-x)
